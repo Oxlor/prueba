@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Academy Choucair" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-01-15T05:42:18" hostname="DESKTOP-N4ATH75" time="33.823">
+  <properties/>
+  <testcase name="Search for a automation course" classname="Academy Choucair" time="33.823">
+    <failure message="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:1149)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:954)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1229)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$bDeTgKeg.performAs$accessor$K8QyrKNu(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:451)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:424)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$bDeTgKeg.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at co.com.choucair.certification.prueba.tasks.Search.performAs(Search.java:23)
+	at co.com.choucair.certification.prueba.tasks.Search$ByteBuddy$eHdSv5G7.performAs$accessor$wU8S0u6p(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:451)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:424)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
+	at co.com.choucair.certification.prueba.tasks.Search$ByteBuddy$eHdSv5G7.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at co.com.choucair.certification.prueba.stepdefinitions.ChoucairAcademyStepDefinitions.heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChoucairAcademyPlatform(ChoucairAcademyStepDefinitions.java:32)
+	at ✽.he search for the course on the choucair academy platform(src/test/resources/features/academyChoucair.feature:10)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: //*[@id=&quot;yui_3_17_2_1_1610689064388_296&quot;] to be enabled (tried for 5 second(s) with 100 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:1146)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:954)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1229)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$bDeTgKeg.performAs$accessor$K8QyrKNu(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:451)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:424)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$bDeTgKeg.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at co.com.choucair.certification.prueba.tasks.Search.performAs(Search.java:23)
+	at co.com.choucair.certification.prueba.tasks.Search$ByteBuddy$eHdSv5G7.performAs$accessor$wU8S0u6p(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:451)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:424)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
+	at co.com.choucair.certification.prueba.tasks.Search$ByteBuddy$eHdSv5G7.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at co.com.choucair.certification.prueba.stepdefinitions.ChoucairAcademyStepDefinitions.heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChoucairAcademyPlatform(ChoucairAcademyStepDefinitions.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at cucumber.runtime.Utils$1.call(Utils.java:31)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:25)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:118)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:56)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:127)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;yui_3_17_2_1_1610689064388_296&quot;]&quot;}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-N4ATH75', ip: '192.168.1.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\ALVARO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64475}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 90c570a4a6b551b0f938509003a38b31
+*** Element info: {Using=xpath, value=//*[@id=&quot;yui_3_17_2_1_1610689064388_296&quot;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:222)
+	at net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:18)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:221)
+	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:63)
+	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:55)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 98 more
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@232c50a
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@bd63b97
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4fd0ab28
+ene. 15, 2021 12:42:19 A. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 11072
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ene. 15, 2021 12:42:23 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 1102843331 | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 1102843331 | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@68fba821
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2a8164c4
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 1102843331 | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button that shows us the form to login]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@32d5ee26
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 1102843331 | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button that shows us the form to login, Brandon enters '1102843331' into where do we write the user]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5d9ab1d4
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 1102843331 | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button that shows us the form to login, Brandon enters '1102843331' into where do we write the user, Brandon enters 'Choucair2021*' into where do we write the password]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@29d78c43
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 1102843331 | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button that shows us the form to login, Brandon enters '1102843331' into where do we write the user, Brandon enters 'Choucair2021*' into where do we write the password, Brandon clicks on button to confirm login]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 1102843331 | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button that shows us the form to login, Brandon enters '1102843331' into where do we write the user, Brandon enters 'Choucair2021*' into where do we write the password, Brandon clicks on button to confirm login]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 1102843331 | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button that shows us the form to login, Brandon enters '1102843331' into where do we write the user, Brandon enters 'Choucair2021*' into where do we write the password, Brandon clicks on button to confirm login]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3c55949f
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@363155c4
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3fda0a4c
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 1102843331 | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button that shows us the form to login, Brandon enters '1102843331' into where do we write the user, Brandon enters 'Choucair2021*' into where do we write the password, Brandon clicks on button to confirm login]], When he search for the course on the choucair academy platform
+| strCourse |
+| Prueba Técnica - Analista Bancolombia | [Brandon search [Brandon clicks on Selecciona la universidad chpucair]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@533541bc
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 1102843331 | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button that shows us the form to login, Brandon enters '1102843331' into where do we write the user, Brandon enters 'Choucair2021*' into where do we write the password, Brandon clicks on button to confirm login]], When he search for the course on the choucair academy platform
+| strCourse |
+| Prueba Técnica - Analista Bancolombia | [Brandon search [Brandon clicks on Selecciona la universidad chpucair, Brandon enters 'Prueba Técnica - Analista Bancolombia' into Buscar el curso]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@55115276
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 1102843331 | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button that shows us the form to login, Brandon enters '1102843331' into where do we write the user, Brandon enters 'Choucair2021*' into where do we write the password, Brandon clicks on button to confirm login]], When he search for the course on the choucair academy platform
+| strCourse |
+| Prueba Técnica - Analista Bancolombia | [Brandon search [Brandon clicks on Selecciona la universidad chpucair, Brandon enters 'Prueba Técnica - Analista Bancolombia' into Buscar el curso, Brandon clicks on Da click para buscar el curso]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5529ab13
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@ca856c8
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Search for a automation course:Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 1102843331 | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button that shows us the form to login, Brandon enters '1102843331' into where do we write the user, Brandon enters 'Choucair2021*' into where do we write the password, Brandon clicks on button to confirm login]], When he search for the course on the choucair academy platform
+| strCourse |
+| Prueba Técnica - Analista Bancolombia | [Brandon search [Brandon clicks on Selecciona la universidad chpucair, Brandon enters 'Prueba Técnica - Analista Bancolombia' into Buscar el curso, Brandon clicks on Da click para buscar el curso, Brandon clicks on Da click en el curso]], Then he finds the course called resources
+| strCourse |
+| Prueba Técnica - Analista Bancolombia |
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Search for a automation course:Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 1102843331 | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button that shows us the form to login, Brandon enters '1102843331' into where do we write the user, Brandon enters 'Choucair2021*' into where do we write the password, Brandon clicks on button to confirm login]], When he search for the course on the choucair academy platform
+| strCourse |
+| Prueba Técnica - Analista Bancolombia | [Brandon search [Brandon clicks on Selecciona la universidad chpucair, Brandon enters 'Prueba Técnica - Analista Bancolombia' into Buscar el curso, Brandon clicks on Da click para buscar el curso, Brandon clicks on Da click en el curso]], Then he finds the course called resources
+| strCourse |
+| Prueba Técnica - Analista Bancolombia |]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Search for a automation course:Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 1102843331 | Choucair2021* | [Brandon open up [Brandon opens the Choucair academy page], Brandon login [Brandon clicks on button that shows us the form to login, Brandon enters '1102843331' into where do we write the user, Brandon enters 'Choucair2021*' into where do we write the password, Brandon clicks on button to confirm login]], When he search for the course on the choucair academy platform
+| strCourse |
+| Prueba Técnica - Analista Bancolombia | [Brandon search [Brandon clicks on Selecciona la universidad chpucair, Brandon enters 'Prueba Técnica - Analista Bancolombia' into Buscar el curso, Brandon clicks on Da click para buscar el curso, Brandon clicks on Da click en el curso]], Then he finds the course called resources
+| strCourse |
+| Prueba Técnica - Analista Bancolombia |]
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Search for a automation course
+--------------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Brandon clicks on Da click en el curso
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expected enabled element was not enabled
+]]></system-err>
+</testsuite>
